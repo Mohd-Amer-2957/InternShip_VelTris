@@ -1,0 +1,16 @@
+*{
+  width: 100%;
+  overflow: hidden;
+background-color: rgb(214, 228, 240);
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  background: #099041;
+  border-color: #c7f3f9;
+}

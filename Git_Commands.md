@@ -50,7 +50,7 @@
 
 
 
-1. **git add file\_name**               : adds new or changed files in working directory to the git **staging** area.    (to add all files at a time: **git add .)**
+1. **git add file\_name**               : adds new or changed files in working directory to the git **staging** area.    (to add all files at a time: git add .)**
 
 2\. **git commit -m "some message"**    : confirming the changes to be proceeded. (Legal authority to changes)
 
