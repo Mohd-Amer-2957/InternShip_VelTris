@@ -29,7 +29,7 @@ const BasicForm = () => {
           <Form.Item
             label="Username"
             name="username"
-            rules={[{required: true, message: 'Please enter username'},{max:10,min:4}]}
+            rules={[{ required: true, message: 'Please enter username' }, { max: 10, min: 4 }]}
           >
             <Input />
           </Form.Item>
@@ -37,7 +37,7 @@ const BasicForm = () => {
           <Form.Item
             label="Password"
             name="password"
-            rules={[{ required: true, message: 'Please enter user password!'},{min:5,max:10}]}
+            rules={[{ required: true, message: 'Please enter user password!' }, { min: 5, max: 10 }]}
           >
             <Input.Password />
           </Form.Item>

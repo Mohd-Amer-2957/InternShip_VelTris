@@ -14,5 +14,5 @@ export default LayoutExample
 
 // The Grid has 24 Coloumns so, the row diveded acoording to given spans/24
 // above ex: (8+8+8)=24
-// gutter means space b/w the cols (ex: gutter={16}  in 16px)  
+// gutter means space b/w the cols (ex: gutter={16}  in 16px)
 // We can give space b/w the rows too ex: gutter={[16,25]}   25 for rows

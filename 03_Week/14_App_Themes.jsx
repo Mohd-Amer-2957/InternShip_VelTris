@@ -25,7 +25,7 @@ export default function ThemedApp() {
 
 
 
-    return  (
+    return (
         <ConfigProvider
             theme={{
                 algorithm: dark ? darkAlgorithm : defaultAlgorithm,

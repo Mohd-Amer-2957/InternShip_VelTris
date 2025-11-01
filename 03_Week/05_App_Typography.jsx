@@ -20,5 +20,5 @@ export default App_Typography
 
 // Ant-d use Typography instead of CSS styling
 // Typography props are ready-made text styling options.
-// They let you make your text bold, colored, underlined, 
+// They let you make your text bold, colored, underlined,
 // highlighted, editable, or even copyable — without needing CSS.

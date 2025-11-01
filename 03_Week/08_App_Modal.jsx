@@ -11,7 +11,7 @@ const MyModal = () => {
                 <Modal title='Edit Items here'
                     open={open}
                     onOk={() => setOpen(false)}
-                    onCancel={()=> setOpen(false)}
+                    onCancel={() => setOpen(false)}
                 >
                     <p>Here we write contents...</p>
                 </Modal>

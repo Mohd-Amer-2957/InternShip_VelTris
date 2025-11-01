@@ -24,7 +24,7 @@ const ConfirmDelete = () => {
 
   return (
     <center style={{ marginTop: '100px' }}>
-      <Button type="primary" style={{background:'#ef653fff'}} onClick={showConfirm}>
+      <Button type="primary" style={{ background: '#ef653fff' }} onClick={showConfirm}>
         Delete Item
       </Button>
     </center>

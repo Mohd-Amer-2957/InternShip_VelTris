@@ -12,7 +12,6 @@ const App = () => {
 
 
 
-
   return (
     <div><center><h1>UseEffect</h1></center>
     <div>

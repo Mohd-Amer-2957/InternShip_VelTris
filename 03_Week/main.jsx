@@ -17,7 +17,6 @@ import AdvancedUIDashboard from './13_App_BasicProject.jsx';
 import ThemeToggle from './14_App_Themes.jsx';
 
 
-
 // createRoot(document.getElementById('root')).render(<App />)
 
 createRoot(document.getElementById('root')).render(<ThemeToggle/>)

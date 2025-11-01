@@ -4,8 +4,8 @@ const { Header, Content, Footer } = Layout;
 const PageLayout = () => (
   <Layout>
     <Header style={{ color: 'white' }}>My Header</Header>
-    <Content style={{ padding: '20px', textAlign:'center', height:'500px' ,background:'#a597b4ff'}}>Main Content</Content>
-    <Footer style={{ textAlign: 'center', background:'#5f8583ff' }}>This is Footer</Footer>
+    <Content style={{ padding: '20px', textAlign: 'center', height: '500px', background: '#a597b4ff' }}>Main Content</Content>
+    <Footer style={{ textAlign: 'center', background: '#5f8583ff' }}>This is Footer</Footer>
   </Layout>
 );
 

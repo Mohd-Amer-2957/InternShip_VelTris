@@ -19,21 +19,21 @@ const SettingsDashboard = () => {
         <TabPane tab="Profile" key="1">
           <p>Name: Mohd Amer</p>
           <p>Email: amer@gmail.com</p>
-          <Button type="primary" onClick={()=> setIsModalOpen(true)}>
+          <Button type="primary" onClick={() => setIsModalOpen(true)}>
             Edit Profile
           </Button>
 
           <Modal
             title="Edit Profile"
             open={isModalOpen}
-            onOk={()=> setIsModalOpen(false)}
-            onCancel={()=> setIsModalOpen(false)}
+            onOk={() => setIsModalOpen(false)}
+            onCancel={() => setIsModalOpen(false)}
           >
             <p>Here you can edit your name and email.</p>
           </Modal>
         </TabPane>
 
-        
+
         <TabPane tab="Account" key="2">
           <Collapse>
             <Panel header="Privacy Settings" key="1">
@@ -45,7 +45,7 @@ const SettingsDashboard = () => {
           </Collapse>
 
         </TabPane>
-        
+
       </Tabs>
     </div>
   );
