@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+
+
+<input id="nameInput" type="text" placeholder="Enter name" />
+
+
+<script>
+    
+  const input = document.querySelector("#nameInput");
+  input.addEventListener("input", e => {
+    console.log("You typed:", e.target.value);
+  });
+
+
+
+  const btn = document.querySelector("#btn");
+  btn.addEventListener("click", function() {
+    alert("Button clicked!");
+  });
+
+  
+//   btn.addEventListener("click", function(event) {
+//   console.log(event.type); // "click"
+//   console.log(event.target); // <button id="btn">
+// });
+
+</script>
+
+</body>
+</html>
