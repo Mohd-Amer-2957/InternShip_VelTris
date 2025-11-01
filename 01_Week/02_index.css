@@ -1,0 +1,33 @@
+/* * {
+margin: 0%;
+background-color:darkolivegreen;
+} */
+
+html,body{
+  background-color:#535C91;
+  
+}
+
+#root{
+  background-color:   #070F2B;
+  margin: 10px; 
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.card{
+  position:static;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #0C7B93;
+  width: 50%;
+  text-shadow: #0C7B93;
+  font-size: large;
+  text-decoration-color: rgb(103, 159, 207);
+}
+
+.btn{
+  caret-color: green;
+  text-align: center;
+}
