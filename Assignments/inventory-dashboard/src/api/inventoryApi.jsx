@@ -48,7 +48,7 @@ export const updateItem = async (updatedItem) => {
 
 
 
-// delete item (optional)
+// delete item 
 export const deleteItem = async (id) => {
   const items = await fetchInventory();
   const updated = items.filter(i => i.id !== id);

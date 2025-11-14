@@ -4,6 +4,7 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { addItem, updateItem } from '../api/inventoryApi';
 
 export default function ItemFormModal({ visible, initialValues, onClose }) {
+  
   const [form] = Form.useForm();
   const queryClient = useQueryClient();
 
@@ -66,31 +67,47 @@ export default function ItemFormModal({ visible, initialValues, onClose }) {
       <Form
         form={form}
         layout="vertical"
-        initialValues={initialValues || { price: 0, quantity: 0, reorderLevel: 0 }}
+        initialValues={initialValues || { price: 1, quantity: 0 , reorderLevel: 0 }}
       >
-        <Form.Item name="name" label="Item Name" rules={[{ required: true }]}>
-          <Input />
+        <Form.Item name="name" label="Item Name" rules={
+          [
+            { required: true },
+            {
+              pattern: /^[A-Za-z][A-Za-z0-9_-]{2,63}$/,   // a-z, - hyphen, forward slash (js takes the line bw //   as regExpression) 
+              message:
+                'name must be start with a Alphabet (between 3 – 64 characters )',
+            },
+          ]}
+             >
+
+          <Input min={3} max={64}  />
         </Form.Item>
         <Form.Item name="category" label="Category" rules={[{ required: true }]}>
           <Select
             options={[
               { label: 'Electronics', value: 'Electronics' },
-              { label: 'Stationery', value: 'Stationery' },
+              { label: 'Stationary', value: 'Stationary' },
               { label: 'Food', value: 'Food' },
-              { label: 'Cloths', value: 'Cloths' },
+              { label: 'Clothes', value: 'Clothes' },
               { label: 'Sports', value: 'Sports' },
+              { label: 'Grocery', value: 'Grocery' },
+              
             ]}
           />
         </Form.Item>
+
         <Form.Item name="price" label="Price" rules={[{ required: true }]}>
-          <InputNumber style={{ width: '100%' }} min={0} step={0.01} />
+          <InputNumber style={{ width: '100%' }} min={1} step={1} />
         </Form.Item>
-        <Form.Item name="quantity" label="Quantity" rules={[{ required: true }]}>
-          <InputNumber style={{ width: '100%' }} min={0} />
+
+        <Form.Item name="quantity" label="Quantity" rules={[{ required: true },{type:'number', min:1, max:1000}]}>
+          <InputNumber style={{ width: '100%' }} />
         </Form.Item>
-        <Form.Item name="reorderLevel" label="Reorder Level" rules={[{ required: true }]}>
-          <InputNumber style={{ width: '100%' }} min={0} />
+
+        <Form.Item name="reorderLevel" label="Reorder Level" rules={[{ required: true },{type:'number', min:10, max:100}]}>
+          <InputNumber style={{ width: '100%' }} />
         </Form.Item>
+
         <Form.Item name="supplier" label="Supplier">
           <Input />
         </Form.Item>

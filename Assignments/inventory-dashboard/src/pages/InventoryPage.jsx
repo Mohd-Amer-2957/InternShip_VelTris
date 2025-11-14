@@ -1,5 +1,3 @@
-
-
 import { useState } from 'react';
 import { Button, Row, Col } from 'antd';
 import InventoryTable from '../components/InventoryTable';
@@ -34,10 +32,12 @@ export default function InventoryPage() {
         <Col><h2>Inventory</h2></Col>
         <Col>
           {role === 'admin' && (
-            <Button type="primary" onClick={handleAdd}>
+            <Button type="primary" onClick={handleAdd} >
               Add Item
             </Button>
+            
           )}
+          {/* <Loadingbutton /> */}
         </Col>
       </Row>
 

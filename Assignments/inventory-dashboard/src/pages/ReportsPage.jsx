@@ -24,7 +24,7 @@ export default function ReportsPage() {
           </Card>
         </Col>
         <Col span={12}>
-          <Card title="Category Distribution">
+          <Card title="Number of Items in each Category">
             <CategoryDonutChart items={items} />
           </Card>
         </Col>
