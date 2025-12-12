@@ -1,0 +1,428 @@
+2025-12-06 22:04:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:04:36 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:23 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:33 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:36 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:37 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:38 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:38 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:39 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:05:39 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:06 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:06 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:08 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:33 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:38 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:39 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:40 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:40 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:40 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:40 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:06:48 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:17:03 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:17:04 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@21f8aa9c
+2025-12-06 22:17:04 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 22:17:04 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-06 22:17:05 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.070s)
+2025-12-06 22:17:05 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-06 22:17:05 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-06 22:17:13 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 22:17:13 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@25052f7a
+2025-12-06 22:17:13 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 22:17:59 INFO  com.example.api.HelloResource - hello bro
+2025-12-06 23:21:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 23:21:32 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b285847
+2025-12-06 23:21:32 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 23:21:33 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-06 23:21:34 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.084s)
+2025-12-06 23:21:34 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-06 23:21:34 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-06 23:25:16 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 23:25:17 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@57ab5033
+2025-12-06 23:25:17 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 23:25:18 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-06 23:25:18 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.090s)
+2025-12-06 23:25:18 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-06 23:25:18 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-06 23:26:04 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 23:26:05 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@66528076
+2025-12-06 23:26:05 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 23:26:05 INFO  com.example.api.HelloResource - hello bro
+2025-12-06 23:26:32 INFO  com.example.api.HelloResource - hello bro
+2025-12-06 23:26:33 INFO  com.example.api.HelloResource - hello bro
+2025-12-06 23:27:48 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 23:27:50 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3449cddf
+2025-12-06 23:27:50 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 23:27:51 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-06 23:27:51 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.107s)
+2025-12-06 23:27:52 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-06 23:27:52 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-06 23:28:04 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 23:28:04 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5359c541
+2025-12-06 23:28:04 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 23:28:05 INFO  com.example.api.HelloResource - hello bro
+2025-12-06 23:35:03 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-06 23:35:04 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1635e239
+2025-12-06 23:35:04 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-06 23:35:05 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-06 23:35:06 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.103s)
+2025-12-06 23:35:06 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-06 23:35:06 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 16:33:41 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 16:33:42 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4528a8bf
+2025-12-07 16:33:42 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 16:33:43 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 16:33:44 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.111s)
+2025-12-07 16:33:44 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 16:33:44 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 16:34:48 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 16:34:49 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@560872a1
+2025-12-07 16:34:49 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 16:35:10 INFO  com.example.api.HelloResource - hello bro
+2025-12-07 16:42:14 INFO  com.example.api.HelloResource - hello bro
+2025-12-07 16:42:41 INFO  com.example.api.HelloResource - hello bro
+2025-12-07 16:47:39 INFO  com.example.api.HelloResource - hello bro
+2025-12-07 16:50:45 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 16:50:46 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cfc4475
+2025-12-07 16:50:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 16:50:47 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 16:50:47 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.060s)
+2025-12-07 16:50:47 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 16:50:47 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 16:55:25 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 16:55:25 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5eefb95e
+2025-12-07 16:55:25 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 16:55:26 INFO  com.example.api.HelloResource - hello bro
+2025-12-07 17:03:30 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 17:03:31 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d2dc60
+2025-12-07 17:03:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 17:03:32 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 17:03:32 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.071s)
+2025-12-07 17:03:32 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 17:03:32 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 22:46:10 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 22:46:12 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@686279e0
+2025-12-07 22:46:12 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 22:46:13 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 22:46:13 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.084s)
+2025-12-07 22:46:13 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 22:46:13 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 22:46:25 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 22:46:25 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ba80277
+2025-12-07 22:46:25 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 22:46:25 INFO  com.example.api.HelloResource - hello bro
+2025-12-07 22:50:15 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 22:50:16 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cd3cf6b
+2025-12-07 22:50:16 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 22:50:18 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 22:50:18 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.061s)
+2025-12-07 22:50:18 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 22:50:18 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 23:09:37 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 23:09:39 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a69c81e
+2025-12-07 23:09:39 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 23:09:40 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 23:09:40 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.095s)
+2025-12-07 23:09:41 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 23:09:41 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 23:15:29 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 23:15:31 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@16337c8e
+2025-12-07 23:15:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 23:15:32 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 23:15:32 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.056s)
+2025-12-07 23:15:32 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 23:15:32 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 23:34:33 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 23:34:34 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@73502c47
+2025-12-07 23:34:34 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 23:34:36 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 23:34:36 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.063s)
+2025-12-07 23:34:36 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 23:34:36 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 23:52:30 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 23:52:32 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@43f670f3
+2025-12-07 23:52:32 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 23:52:34 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 23:52:34 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.167s)
+2025-12-07 23:52:34 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 23:52:34 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-07 23:59:34 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-07 23:59:35 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f9083b4
+2025-12-07 23:59:35 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-07 23:59:37 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-07 23:59:37 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.110s)
+2025-12-07 23:59:37 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-07 23:59:37 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-08 00:03:09 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 00:03:10 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@8c940e2
+2025-12-08 00:03:10 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 00:03:12 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-08 00:03:12 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.114s)
+2025-12-08 00:03:12 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-08 00:03:12 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-08 00:23:21 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 00:23:22 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d73518
+2025-12-08 00:23:22 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 00:23:24 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-08 00:23:24 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.058s)
+2025-12-08 00:23:24 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-08 00:23:24 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-08 00:45:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 00:45:47 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@16337c8e
+2025-12-08 00:45:47 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 00:45:49 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-08 00:45:49 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.148s)
+2025-12-08 00:45:49 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-08 00:45:49 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-08 01:51:28 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 01:51:29 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f9083b4
+2025-12-08 01:51:29 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 01:51:30 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/projectdb (MySQL 8.0)
+2025-12-08 01:51:31 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.146s)
+2025-12-08 01:51:31 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `projectdb`: 4
+2025-12-08 01:51:31 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `projectdb` is up to date. No migration necessary.
+2025-12-08 13:08:00 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 13:08:01 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a1b710
+2025-12-08 13:08:01 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 13:08:03 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 13:08:03 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 13:08:03 INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory - Schema history table `collage`.`flyway_schema_history` does not exist yet
+2025-12-08 13:08:03 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.126s)
+2025-12-08 13:08:03 INFO  org.flywaydb.core.Flyway - All configured schemas are empty; baseline operation skipped. A baseline or migration script with a lower version than the baseline version may execute if available. Check the Schemas parameter if this is not intended.
+2025-12-08 13:08:03 INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory - Creating Schema History table `collage`.`flyway_schema_history` ...
+2025-12-08 13:08:04 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: << Empty Schema >>
+2025-12-08 13:08:04 INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema `collage` to version "1 - dec"
+2025-12-08 13:08:04 INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema `collage` to version "2 - create users table"
+2025-12-08 13:08:04 INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema `collage` to version "3 - insert"
+2025-12-08 13:08:04 INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema `collage` to version "4 - create veltris table"
+2025-12-08 13:08:04 INFO  org.flywaydb.core.internal.command.DbMigrate - Successfully applied 4 migrations to schema `collage`, now at version v4 (execution time 00:00.259s)
+2025-12-08 13:09:57 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 13:09:58 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@12f85dc8
+2025-12-08 13:09:58 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 13:09:59 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 13:09:59 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 13:09:59 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.147s)
+2025-12-08 13:09:59 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 13:09:59 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-08 13:10:27 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 13:10:27 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@19705c44
+2025-12-08 13:10:27 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 13:20:14 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 13:20:16 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@522fdf0c
+2025-12-08 13:20:16 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 13:20:17 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 13:20:17 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 13:20:17 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.102s)
+2025-12-08 13:20:17 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 13:20:17 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-08 13:20:40 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 13:20:40 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@ea7d1c4
+2025-12-08 13:20:40 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 13:20:40 INFO  com.example.api.HelloResource - hello bro
+2025-12-08 13:28:13 WARN  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Thread starvation or clock leap detected (housekeeper delta=3m33s315ms883µs900ns).
+2025-12-08 13:28:19 WARN  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Thread starvation or clock leap detected (housekeeper delta=3m33s323ms567µs800ns).
+2025-12-08 15:58:17 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 15:58:18 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f96d39f
+2025-12-08 15:58:18 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 15:58:20 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 15:58:20 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 15:58:20 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.109s)
+2025-12-08 15:58:20 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 15:58:20 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-08 16:01:37 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:01:39 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@320bfc61
+2025-12-08 16:01:39 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 16:01:41 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 16:01:41 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 16:01:42 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.183s)
+2025-12-08 16:01:42 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 16:01:42 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-08 16:01:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:01:46 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@17e956e
+2025-12-08 16:01:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 16:01:47 INFO  com.example.api.HelloResource - hello bro
+2025-12-08 16:03:25 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:03:27 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b9b035
+2025-12-08 16:03:27 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 16:03:29 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 16:03:29 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 16:03:29 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.180s)
+2025-12-08 16:03:29 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 16:03:29 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-08 16:05:08 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:05:09 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b9187de
+2025-12-08 16:05:09 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 16:05:11 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 16:05:11 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 16:05:11 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.155s)
+2025-12-08 16:05:11 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 16:05:11 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-08 16:07:57 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:07:58 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b8d0c21
+2025-12-08 16:07:58 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 16:07:59 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 16:07:59 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 16:07:59 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.118s)
+2025-12-08 16:08:00 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 16:08:00 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-08 16:46:49 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:46:50 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b376bb
+2025-12-08 16:46:50 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 16:46:52 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-08 16:46:52 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-08 16:46:52 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.153s)
+2025-12-08 16:46:52 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 4
+2025-12-08 16:46:52 INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema `collage` to version "5 - createTable"
+2025-12-08 16:46:52 INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema `collage` to version "6 - create Store user messages"
+2025-12-08 16:46:52 INFO  org.flywaydb.core.internal.command.DbMigrate - Successfully applied 2 migrations to schema `collage`, now at version v6 (execution time 00:00.142s)
+2025-12-08 16:52:51 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:52:51 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f472a59
+2025-12-08 16:52:51 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-08 16:52:52 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-08 16:52:52 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a102e3d
+2025-12-08 16:52:52 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 13:19:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 13:19:33 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@36dab184
+2025-12-09 13:19:33 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 13:19:36 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 13:19:36 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 13:19:36 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.208s)
+2025-12-09 13:19:37 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 13:19:37 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 13:22:00 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 13:22:00 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@47e5a727
+2025-12-09 13:22:00 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 13:22:01 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 13:22:01 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@63f05791
+2025-12-09 13:22:01 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:29:55 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:29:56 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@36dab184
+2025-12-09 14:29:56 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:29:57 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 14:29:57 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 14:29:58 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.101s)
+2025-12-09 14:29:58 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 14:29:58 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 14:31:01 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:31:01 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@693419c6
+2025-12-09 14:31:01 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:31:02 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:31:02 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@44756b4e
+2025-12-09 14:31:02 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:36:17 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:36:18 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b376bb
+2025-12-09 14:36:18 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:36:20 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 14:36:20 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 14:36:20 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.152s)
+2025-12-09 14:36:20 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 14:36:20 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 14:43:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:43:07 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@47e5a727
+2025-12-09 14:43:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:43:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:43:07 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@63f05791
+2025-12-09 14:43:07 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:44:34 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:44:35 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@12f85dc8
+2025-12-09 14:44:35 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:44:37 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 14:44:37 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 14:44:38 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.182s)
+2025-12-09 14:44:38 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 14:44:38 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 14:44:42 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:44:42 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fadd36d
+2025-12-09 14:44:42 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 14:44:43 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 14:44:43 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@164b59bc
+2025-12-09 14:44:43 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:07:47 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:07:48 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3927de0e
+2025-12-09 15:07:48 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:07:50 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 15:07:50 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 15:07:50 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.130s)
+2025-12-09 15:07:50 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 15:07:50 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 15:08:11 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:08:11 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@79bd1860
+2025-12-09 15:08:11 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:08:12 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:08:12 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@44460bd9
+2025-12-09 15:08:12 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:10:29 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:10:31 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b376bb
+2025-12-09 15:10:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:10:33 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 15:10:34 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 15:10:34 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.144s)
+2025-12-09 15:10:34 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 15:10:34 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 15:10:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:10:46 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@47e5a727
+2025-12-09 15:10:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:10:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:10:46 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@63f05791
+2025-12-09 15:10:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:16:03 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:16:04 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@36dab184
+2025-12-09 15:16:04 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:16:07 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 15:16:07 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 15:16:07 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.218s)
+2025-12-09 15:16:07 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 15:16:07 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 15:16:18 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:16:18 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@693419c6
+2025-12-09 15:16:18 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:16:19 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:16:19 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@44756b4e
+2025-12-09 15:16:19 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:22:28 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:22:30 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@46b376bb
+2025-12-09 15:22:30 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:22:31 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 15:22:31 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 15:22:31 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.106s)
+2025-12-09 15:22:31 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 15:22:31 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 15:22:45 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:22:45 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@693419c6
+2025-12-09 15:22:45 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:22:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:22:46 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@44756b4e
+2025-12-09 15:22:46 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:26:12 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:26:13 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3927de0e
+2025-12-09 15:26:14 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:26:15 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-09 15:26:15 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-09 15:26:15 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.111s)
+2025-12-09 15:26:15 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-09 15:26:15 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-09 15:26:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:26:31 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fadd36d
+2025-12-09 15:26:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-09 15:26:32 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-09 15:26:32 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@164b59bc
+2025-12-09 15:26:32 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-10 15:26:17 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-10 15:26:19 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@36dab184
+2025-12-10 15:26:19 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-10 15:26:21 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/collage (MySQL 9.5)
+2025-12-10 15:26:21 WARN  org.flywaydb.core.internal.database.base.Database - Using MySQL 9.5 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 9.4.
+2025-12-10 15:26:21 INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 6 migrations (execution time 00:00.110s)
+2025-12-10 15:26:21 INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema `collage`: 6
+2025-12-10 15:26:21 INFO  org.flywaydb.core.internal.command.DbMigrate - Schema `collage` is up to date. No migration necessary.
+2025-12-10 15:28:30 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-10 15:28:30 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@37e743a7
+2025-12-10 15:28:30 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
+2025-12-10 15:28:30 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Starting...
+2025-12-10 15:28:31 INFO  com.zaxxer.hikari.pool.HikariPool - ClickHousePool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2eed2eca
+2025-12-10 15:28:31 INFO  com.zaxxer.hikari.HikariDataSource - ClickHousePool - Start completed.
