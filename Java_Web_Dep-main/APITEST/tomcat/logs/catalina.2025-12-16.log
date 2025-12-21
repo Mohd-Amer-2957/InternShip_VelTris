@@ -1,0 +1,222 @@
+16-Dec-2025 11:32:41.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Dec-2025 11:32:41.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 11:32:41.574 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 11:32:41.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\conf\logging.properties
+16-Dec-2025 11:32:41.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Dec-2025 11:32:41.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Dec-2025 11:32:41.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Dec-2025 11:32:41.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Dec-2025 11:32:41.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Dec-2025 11:32:41.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-Dec-2025 11:32:41.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Dec-2025 11:32:41.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Dec-2025 11:32:41.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Dec-2025 11:32:41.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Dec-2025 11:32:41.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 11:32:41.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 11:32:41.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\temp
+16-Dec-2025 11:32:41.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+16-Dec-2025 11:32:41.694 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+16-Dec-2025 11:32:42.320 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 11:32:42.371 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1518] milliseconds
+16-Dec-2025 11:32:42.463 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Dec-2025 11:32:42.463 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+16-Dec-2025 11:32:42.515 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war]
+16-Dec-2025 11:32:42.558 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST] was found with a last modified time that did not match the associated WAR. It will be deleted.
+16-Dec-2025 11:32:48.537 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2025 11:32:56.581 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war] has finished in [14,066] ms
+16-Dec-2025 11:32:56.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs]
+16-Dec-2025 11:32:56.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs] has finished in [71] ms
+16-Dec-2025 11:32:56.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples]
+16-Dec-2025 11:32:57.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples] has finished in [976] ms
+16-Dec-2025 11:32:57.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager]
+16-Dec-2025 11:32:57.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager] has finished in [94] ms
+16-Dec-2025 11:32:57.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager]
+16-Dec-2025 11:32:57.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager] has finished in [88] ms
+16-Dec-2025 11:32:57.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT]
+16-Dec-2025 11:32:57.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT] has finished in [54] ms
+16-Dec-2025 11:32:57.891 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 11:32:57.922 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [15546] milliseconds
+16-Dec-2025 12:20:54.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+16-Dec-2025 12:20:54.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+16-Dec-2025 12:20:54.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+16-Dec-2025 12:20:54.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Dec-2025 12:20:54.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Dec-2025 12:20:54.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Dec-2025 12:20:54.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+16-Dec-2025 12:20:54.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+16-Dec-2025 12:20:54.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Dec-2025 12:20:54.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 12:20:54.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 12:20:54.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\conf\logging.properties
+16-Dec-2025 12:20:54.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Dec-2025 12:20:54.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Dec-2025 12:20:54.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Dec-2025 12:20:54.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Dec-2025 12:20:54.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Dec-2025 12:20:54.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-Dec-2025 12:20:54.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Dec-2025 12:20:54.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Dec-2025 12:20:54.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Dec-2025 12:20:54.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Dec-2025 12:20:54.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 12:20:54.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 12:20:54.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\temp
+16-Dec-2025 12:20:54.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+16-Dec-2025 12:20:54.682 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+16-Dec-2025 12:20:55.216 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 12:20:55.254 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [972] milliseconds
+16-Dec-2025 12:20:55.328 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Dec-2025 12:20:55.328 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+16-Dec-2025 12:20:55.370 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war]
+16-Dec-2025 12:20:55.420 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST] was found with a last modified time that did not match the associated WAR. It will be deleted.
+16-Dec-2025 12:21:01.564 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2025 12:21:08.416 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war] has finished in [13,046] ms
+16-Dec-2025 12:21:08.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs]
+16-Dec-2025 12:21:08.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs] has finished in [88] ms
+16-Dec-2025 12:21:08.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples]
+16-Dec-2025 12:21:09.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples] has finished in [676] ms
+16-Dec-2025 12:21:09.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager]
+16-Dec-2025 12:21:09.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager] has finished in [56] ms
+16-Dec-2025 12:21:09.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager]
+16-Dec-2025 12:21:09.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager] has finished in [58] ms
+16-Dec-2025 12:21:09.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT]
+16-Dec-2025 12:21:09.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT] has finished in [34] ms
+16-Dec-2025 12:21:09.334 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 12:21:09.366 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14111] milliseconds
+16-Dec-2025 15:11:03.800 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+16-Dec-2025 15:11:03.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 15:11:03.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 15:11:03.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\conf\logging.properties
+16-Dec-2025 15:11:03.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Dec-2025 15:11:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Dec-2025 15:11:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Dec-2025 15:11:03.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Dec-2025 15:11:03.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Dec-2025 15:11:03.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-Dec-2025 15:11:03.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Dec-2025 15:11:03.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Dec-2025 15:11:03.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Dec-2025 15:11:03.870 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Dec-2025 15:11:03.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 15:11:03.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 15:11:03.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\temp
+16-Dec-2025 15:11:03.880 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+16-Dec-2025 15:11:03.905 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+16-Dec-2025 15:11:04.580 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 15:11:04.618 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1179] milliseconds
+16-Dec-2025 15:11:04.712 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Dec-2025 15:11:04.712 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+16-Dec-2025 15:11:04.748 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war]
+16-Dec-2025 15:11:04.790 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST] was found with a last modified time that did not match the associated WAR. It will be deleted.
+16-Dec-2025 15:11:10.806 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2025 15:11:21.563 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war] has finished in [16,813] ms
+16-Dec-2025 15:11:21.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs]
+16-Dec-2025 15:11:21.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs] has finished in [107] ms
+16-Dec-2025 15:11:21.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples]
+16-Dec-2025 15:11:23.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples] has finished in [1,393] ms
+16-Dec-2025 15:11:23.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager]
+16-Dec-2025 15:11:23.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager] has finished in [109] ms
+16-Dec-2025 15:11:23.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager]
+16-Dec-2025 15:11:23.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager] has finished in [111] ms
+16-Dec-2025 15:11:23.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT]
+16-Dec-2025 15:11:23.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT] has finished in [79] ms
+16-Dec-2025 15:11:23.375 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 15:11:23.430 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [18811] milliseconds
+16-Dec-2025 15:54:58.764 SEVERE [http-nio-8082-exec-5] org.apache.tomcat.websocket.pojo.PojoEndpointBase.onError No error handling configured for [com.example.api.ChatServer] and the following error occurred
+	java.io.EOFException
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1333)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1218)
+		at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:74)
+		at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:184)
+		at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:164)
+		at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:152)
+		at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:57)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+16-Dec-2025 15:54:58.768 SEVERE [http-nio-8082-exec-6] org.apache.tomcat.websocket.pojo.PojoEndpointBase.onError No error handling configured for [com.example.api.ChatServer] and the following error occurred
+	java.io.EOFException
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1333)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1218)
+		at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:74)
+		at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:184)
+		at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:164)
+		at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:152)
+		at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:57)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+16-Dec-2025 16:40:11.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.49
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2025 01:31:11 UTC
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.49.0
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-23
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 16:40:11.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\conf\logging.properties
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Dec-2025 16:40:11.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Dec-2025 16:40:11.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 16:40:11.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat
+16-Dec-2025 16:40:11.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\temp
+16-Dec-2025 16:40:11.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+16-Dec-2025 16:40:11.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+16-Dec-2025 16:40:11.962 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 16:40:11.982 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [604] milliseconds
+16-Dec-2025 16:40:12.040 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Dec-2025 16:40:12.041 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.49]
+16-Dec-2025 16:40:12.063 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war]
+16-Dec-2025 16:40:12.090 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST] was found with a last modified time that did not match the associated WAR. It will be deleted.
+16-Dec-2025 16:40:15.365 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Dec-2025 16:40:19.111 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\APITEST.war] has finished in [7,046] ms
+16-Dec-2025 16:40:19.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs]
+16-Dec-2025 16:40:19.151 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\docs] has finished in [40] ms
+16-Dec-2025 16:40:19.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples]
+16-Dec-2025 16:40:19.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\examples] has finished in [385] ms
+16-Dec-2025 16:40:19.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager]
+16-Dec-2025 16:40:19.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\host-manager] has finished in [51] ms
+16-Dec-2025 16:40:19.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager]
+16-Dec-2025 16:40:19.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\manager] has finished in [46] ms
+16-Dec-2025 16:40:19.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT]
+16-Dec-2025 16:40:19.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Admin\Downloads\Java_Web_Dep-main\Java_Web_Dep-main\APITEST\tomcat\webapps\ROOT] has finished in [35] ms
+16-Dec-2025 16:40:19.677 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+16-Dec-2025 16:40:19.699 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7712] milliseconds
