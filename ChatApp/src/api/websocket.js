@@ -22,6 +22,6 @@ export const connectSocket = (onMessageReceived, user) => {
 export const sendMessage = (msgObj) => {
   if (socket && socket.readyState === WebSocket.OPEN) {
     socket.send(msgObj);
-    console.log("Scoket me sendMessage sending ", msgObj);
+    console.log("Scoket sending ", msgObj);
   }
 };
