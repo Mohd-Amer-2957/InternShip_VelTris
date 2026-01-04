@@ -7,6 +7,7 @@ export const connectSocket = (onMessageReceived, user) => {
     console.log("Connected to WebSocket server");
   };
 
+  
   socket.onmessage = (event) => {
     console.log(event.data)
     const msg = event.data;

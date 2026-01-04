@@ -9,7 +9,7 @@ public class Synchronized {
             count++;
         }
     }
-
+ 
 
 
     public static void main(String[] args) {

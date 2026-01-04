@@ -1,49 +1,37 @@
+import { useEffect, useRef } from "react";
+import MessageBubble from "./MessageBubble";
+
 export default function ChatWindow({ messages, myName }) {
+  const bottomRef = useRef(null);
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
   return (
     <div
       style={{
         flex: 1,
+        padding: 10,
         overflowY: "auto",
-        padding: "10px",
-        background: "#f0f2f5",
+        background: "#cbd9edff",
       }}
     >
-      {messages.map((msg, index) => (
+      {messages.map((msg, i) => (
         <div
-          key={index}
+          key={i}
           style={{
-            textAlign: msg.from === myName ? "right" : "left",
-            marginBottom: "8px",
+            display: "flex",
+            justifyContent: msg.from === myName ? "flex-end" : "flex-start",
+            margin: "8px 0",
           }}
         >
-          <span
-            style={{
-              display: "inline-block",
-              padding: "6px 10px",
-              borderRadius: "8px",
-              background: msg.from === myName ? "#4deba2ff" : "#d1d9ebff",
-              color: msg.from === myName ? "#000" : "#000",
-            }}
-          >
-            {msg.text}
-          </span>
+          <MessageBubble  
+            text={msg.text}
+            sender={msg.from === myName ? "me" : "other"}
+          />
         </div>
       ))}
+      <div ref={bottomRef} />
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

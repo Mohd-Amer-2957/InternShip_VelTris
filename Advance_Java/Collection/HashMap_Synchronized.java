@@ -9,7 +9,7 @@ public class HashMap_Synchronized {
         Map<Integer, String> m  = Collections.synchronizedMap(new HashMap<>());
 
 
-
+ 
         m.put(1, "Amer");
         m.put(null, "Null key allowed");   // ✔ allowed
         m.put(2, null);                    // ✔ allowed

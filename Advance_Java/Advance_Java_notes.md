@@ -11,7 +11,7 @@ Queue -> PriorityQueue, Deque, ArrayDeque
 
 ArrayList Characteristics:
 
-1. Dynamic Array
+1. Dynamic Array 
 2. Allows Duplicates
 3. Maintains Insertion Order
 4. Not Synchronized

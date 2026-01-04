@@ -11,7 +11,7 @@ public class ComparatorExample {
 
         // we can also use arrow function to create comparator
         //Comparator<Integer> comp=(i,j)->{};
-
+ 
 
         Comparator<Integer> comp = new Comparator<Integer>() {
             

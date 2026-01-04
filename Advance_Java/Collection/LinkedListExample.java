@@ -19,7 +19,7 @@ public class LinkedListExample {
         System.out.println("First Element: " + list.getFirst());
         System.out.println("Last Element: " + list.pop() + list);
 
-    }
+    } 
 }
 
 //  LinkedList Characteristics:

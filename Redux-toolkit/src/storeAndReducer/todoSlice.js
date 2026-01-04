@@ -18,12 +18,12 @@ export const todoSlice = createSlice({
     reducers: {
 
         //add item
-        addTodo: (state, action) => {             // current state, action by fucntion
+        addTodo: (state, action) => { // current state, action by fucntion
             const todo = {
-                id: nanoid(),                    // unique id creted
-                text: action.payload             // getting data from action
+                id: nanoid(), // unique id creted
+                text: action.payload // getting data from action
             }
-            state.todos.push(todo)               // push to todos
+            state.todos.push(todo) // push to todos
             console.log("todo added success");
         },
 
@@ -37,7 +37,10 @@ export const todoSlice = createSlice({
         //Update todo
 
         updateTodo: (state, action) => {
-            const {id,text} = action.payload;
+            const {
+                id,
+                text
+            } = action.payload;
 
             const todo = state.todos.find((ele) => ele.id === id);
 
@@ -50,6 +53,10 @@ export const todoSlice = createSlice({
 })
 
 
-export const { addTodo, removeTodo, updateTodo } = todoSlice.actions // exporting individual functions  access to other components
+export const {
+    addTodo,
+    removeTodo,
+    updateTodo
+} = todoSlice.actions // exporting individual functions  access to other components
 
 export default todoSlice.reducer

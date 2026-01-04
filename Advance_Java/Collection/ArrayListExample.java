@@ -11,7 +11,7 @@ public class ArrayListExample {
         nums.add(20);
         nums.add(30);
         nums.add(40);
-
+ 
         System.out.println("ArrayList : " + nums);
         System.out.println(nums.indexOf(10));
 

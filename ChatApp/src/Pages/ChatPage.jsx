@@ -8,99 +8,112 @@ import { fetchChatHistory } from "../api/messages";
 import { fetchUsers } from "../api/users";
 
 export default function ChatPage() {
-  const [myName, setMyName] = useState("Amer"); // default
+  const [myName, setMyName] = useState("Amer");
   const [nameInput, setNameInput] = useState("");
   const [isConnected, setIsConnected] = useState(false);
 
   const [messages, setMessages] = useState([]);
   const [selectedUser, setSelectedUser] = useState(null);
-  const [users, setUsers] = useState([]); // array of strings
+  const [users, setUsers] = useState([]);
 
-  // const users = [
-  //   { id: 1, name: "Amer" },
-  //   { id: 2, name: "Pardha" },
-  //   { id: 3, name: "Leela" },
-  //   { id: 4, name: "Khaja" },
-  // ];
 
+
+  // 🔹 CONNECT SOCKET — ONCE
+  const connect = () => {
+    const finalName = nameInput.trim() || "Amer";
+    setMyName(finalName);
+
+    console.log("✅ CONNECT CLICKED, name =", finalName);
+
+
+
+  connectSocket((rawMsg) => {
+  const msg = parseSocketMessage(rawMsg);
+  if (!msg) return;
+
+  const finalMsg = {
+    ...msg,
+    to: finalName, 
+  };
+
+  setMessages((prev) => [...prev, finalMsg]);
+
+}, finalName);
+
+
+
+    setIsConnected(true);
+  };
+
+
+
+
+
+  // 🔹 LOAD USERS (polling)
   useEffect(() => {
     if (!isConnected || !myName) return;
 
     const loadUsers = () => {
       fetchUsers()
         .then((list) => {
-          // remove self
           setUsers(list.filter((u) => u !== myName));
         })
         .catch(console.error);
     };
 
-    // initial load
     loadUsers();
-
-    // 🔴 poll every 3 seconds
-    const interval = setInterval(loadUsers, 3000);
-
+    const interval = setInterval(loadUsers, 10000);
     return () => clearInterval(interval);
+    
   }, [isConnected, myName]);
 
 
 
-
-
-
-
-
-
-
-  const connect = () => {
-    const finalName = nameInput.trim() || "Amer";
-    setMyName(finalName);
-
-    connectSocket((rawMsg) => {
-      const msg = parseIncomingMessage(rawMsg);
-      if (msg) {
-        setMessages((prev) => [...prev, msg]);
-      }
-    }, finalName);
-
-    setIsConnected(true);
+  const fetchHistory = () => {
+    fetchChatHistory(myName, selectedUser)
+      .then((history) => {
+        setMessages(history);
+      })
+      .catch(console.error);
   };
+  
 
+  
+  
+  // 🔹 LOAD HISTORY WHEN USER CHANGES
+ useEffect(() => {
+  if (!selectedUser || !myName) return;
+
+  if (messages.length === 0) {
+    fetchChatHistory(myName, selectedUser)
+      .then(setMessages)
+      .catch(console.error);
+  }
+}, [selectedUser, myName]);
+
+
+
+  // 🔹 SEND MESSAGE
   const handleSend = (text) => {
     if (!selectedUser) return;
 
-    const msgObj = {
-      from: myName,
-      to: selectedUser,
-      text,
-    };
+    const msg = { from: myName, to: selectedUser, text };
 
-    setMessages((prev) => [...prev, msgObj]);
-    sendMessage(`TO:${selectedUser} ${text}`);
+    // 🔴 instant sender UI update
+    setMessages((prev) => [...prev, msg]);  
+    sendMessage(`TO:${selectedUser} ${text}`);  
   };
 
+  
+
+  // 🔹 FILTER FOR CURRENT CHAT
   const filteredMessages = messages.filter(
     (m) =>
       selectedUser &&
       ((m.from === myName && m.to === selectedUser) ||
         (m.from === selectedUser && m.to === myName))
   );
-
-
-
-
-
-
-  useEffect(() => {
-  if (!selectedUser || !myName) return;
-
-  setMessages([]);
-
-  fetchChatHistory(myName, selectedUser)
-    .then(setMessages)
-    .catch(console.error);
-}, [selectedUser, myName,filteredMessages]);
+  
 
 
 
@@ -110,7 +123,9 @@ export default function ChatPage() {
 
 
 
-  // 🔴 BEFORE LOGIN SCREEN
+
+
+  // 🔹 LOGIN SCREEN
   if (!isConnected) {
     return (
       <div
@@ -120,7 +135,7 @@ export default function ChatPage() {
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-          gap: "10px",
+          gap: 10,
         }}
       >
         <h2>Enter your name</h2>
@@ -137,17 +152,17 @@ export default function ChatPage() {
     );
   }
 
-  // 🟢 AFTER LOGIN SCREEN
+  // 🔹 CHAT UI
   return (
     <div style={{ display: "flex", height: "100vh" }}>
       <UserList
-        users={users.filter((u) => u.name !== myName)}
+        users={users}
         selectedUser={selectedUser}
         onSelect={setSelectedUser}
       />
 
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
-        <div style={{ padding: "10px", fontWeight: "bold" }}>
+        <div style={{ padding: 10, fontWeight: "bold" }}>
           Logged in as: {myName}
         </div>
 
@@ -157,128 +172,37 @@ export default function ChatPage() {
             <MessageInput onSend={handleSend} />
           </>
         ) : (
-          <div style={{ padding: "20px" }}>Select a user to start chatting</div>
+          <div style={{ padding: 20 }}>Select a user to start chatting</div>
         )}
       </div>
     </div>
   );
 }
 
-function parseIncomingMessage(raw) {
-  // Expected: FROM:Pardha TO:Amer hello
-  if (!raw.startsWith("FROM:")) return null;
 
-  const from = raw.match(/FROM:(\w+)/)?.[1];
-  const to = raw.match(/TO:(\w+)/)?.[1];
-  const text = raw.replace(/FROM:.*?TO:.*?\s/, "");
 
-  return { from, to, text };
+// 🔹 SOCKET MESSAGE PARSER
+function parseSocketMessage(raw) {
+  console.log("📩 RAW SOCKET:", raw);
+
+  if (typeof raw !== "string") return null;
+
+
+  // Matches: "From Sai: hii"
+  const match = raw.match(/^From\s+(\w+)\s*:\s*(.+)$/i);
+
+  if (!match) {
+    console.warn("❌ Unrecognized socket message format:", raw);
+    return null;
+  }
+
+  const from = match[1];
+  const text = match[2];
+
+  return {
+    from,
+    to: null, // receiver is implicitly "me"
+    text,
+  };
 }
 
-
-
-
-
-
-
-
-
-
-
-
-// import { useEffect, useState } from "react";
-// import { Button, Input, Select } from "antd";
-// import UserList from "../components/UserList";
-// import ChatWindow from "../components/ChatWindow";
-// import MessageInput from "../components/MessageInput";
-// import { connectSocket, sendMessage } from "../api/websocket";
-
-// const { Option } = Select;
-
-// export default function ChatPage() {
-//   const [messages, setMessages] = useState("");
-//   const [value, setValue] = useState("");
-//   const [input, setInput] = useState("");
-
-//   const [users, setUsers] = useState([
-//     { id: 1, name: "Amer" },
-//     { id: 2, name: "Pardha" },
-//     { id: 3, name: "Leela" },
-//     { id: 4, name: "Khaja bhai" },
-//   ]);
-
-//   const [selectedUser, setSelectedUser] = useState(null);
-
-//   useEffect(() => {
-//     if (value !== "") {
-//       connectSocket((msg) => {
-//         console.log(msg);
-//         setMessages((prev) => [...prev, msg]);
-//       }, value);
-//     }
-//   }, [value]);
-
-//   const handleSend = (text) => {
-//     // const msgObj = {
-//     //   text,
-//     //   sender: "me",
-//     //   receiver: selectedUser?.name,
-//     // };
-
-//     setMessages((prev) => [...prev, text]);
-//     sendMessage(text);
-
-//     // setMessages((prev) => [...prev, msgObj]);
-//     // sendMessage(msgObj);
-//   };
-
-//   // const handleSubmit = () => {
-//   //   setValue(() => input);
-//   // };
-
-//   const handleSubmit = () => {
-//     if (!selectedUser || !input.trim()) return;
-
-//     const payload = {
-//       to: selectedUser.name, // or selectedUser.id
-//       message: input,
-//     };
-
-//     console.log("Sending:", payload);
-
-//     setInput("");
-//   };
-
-//   return (
-//     <div style={{ display: "flex", height: "100vh" }}>
-//       <UserList
-//         users={users}
-//         selectedUser={selectedUser}
-//         onSelect={setSelectedUser}
-//       />
-//       <div style={{ display: "flex", gap: "10px" }}>
-//         <Select
-//           placeholder="Select user"
-//           style={{ width: 180 }}
-//           onChange={(id) => setSelectedUser(users.find((u) => u.id === id))}
-//         >
-//           {users.map((user) => (
-//             <Option key={user.id} value={user.id}>
-//               {user.name}
-//             </Option>
-//           ))}
-//         </Select>
-
-//       </div>
-
-//       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
-//         {/* <ChatWindow messages={messages.filter(m =>
-//           selectedUser ? m.receiver === selectedUser.name || m.sender === selectedUser.name : true
-//         )} /> */}
-
-//         <ChatWindow messages={messages} />
-//         <MessageInput onSend={handleSend} />
-//       </div>
-//     </div>
-//   );
-// }

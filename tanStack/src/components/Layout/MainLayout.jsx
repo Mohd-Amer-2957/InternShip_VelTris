@@ -8,9 +8,11 @@ export const MainLayout = () => {
   return (
     <>
         <Header />
-        <Outlet />
+        <Outlet />                                      {/* placeholder for child routes */}
         <Footer />
     </>
   )
 }
+
+//layout component which includes header , footer and outlet for child routes
 

@@ -4,7 +4,5 @@ import './index.css'
 import ChatPage from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <ChatPage />
-  </StrictMode>,
+  <ChatPage />
 )

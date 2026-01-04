@@ -5,7 +5,7 @@ const App = () => {
     <>
       <center>
         <div><h1>Todo App</h1> </div>
-      <div> <AddTodo/> </div><br />
+      <div> <AddTodo/> </div><br/>
       </center>
     </>
   )
