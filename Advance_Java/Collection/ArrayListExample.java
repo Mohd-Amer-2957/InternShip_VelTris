@@ -18,6 +18,7 @@ public class ArrayListExample {
     }
 }
 
+
 //  ArrayList Characteristics:
 // 1. Dynamic Array
 // 2. Allows Duplicates
