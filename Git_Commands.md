@@ -58,5 +58,5 @@
 
 4\. **git restore file\_name           :** to restore the old file from GitHub.
 
-**5. git restore --staged file\_name**  : to unstage a file
+**5. git restore --staged file\_name**  : to unstage a file 
 
